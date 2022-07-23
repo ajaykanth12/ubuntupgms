@@ -1,10 +1,10 @@
 #!/bin/bash
-A=10
-B=20
-IF [ $A -gt $B ]
-THEN
+read -p "A value ="
+read -p "B value ="
+if [ $A -gt $B ]
+then
 echo "its true"
-ELSE
+else
 echo "its false"
-FI
+fi
 
